@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        (function () {
+            var urls = [
+                "https://youtu.be/DS9roEtCj_Q?t=3",
+                "https://youtu.be/L0f3qs72lnM?t=2",
+                "https://youtu.be/LRPFPJ79hks?t=2",
+                "https://youtu.be/2c8R_XltVLQ?t=4",
+                "https://www.youtube.com/watch?v=hlerQkLc0iY"
+            ];
+            window.location.replace(urls[Math.floor(Math.random() * urls.length)]);
+        })();
+    </script>
+</head>
+<body>
+    <p>自動的に移動しない場合は、JavaScript を有効にして再読み込みするか、次のいずれかを開いてください。</p>
+    <noscript>
+        <ul>
+            <li><a href="https://youtu.be/DS9roEtCj_Q?t=3">動画1</a></li>
+            <li><a href="https://youtu.be/L0f3qs72lnM?t=2">動画2</a></li>
+            <li><a href="https://youtu.be/LRPFPJ79hks?t=2">動画3</a></li>
+            <li><a href="https://youtu.be/2c8R_XltVLQ?t=4">動画4</a></li>
+            <li><a href="https://www.youtube.com/watch?v=hlerQkLc0iY">動画5</a></li>
+        </ul>
+    </noscript>
+</body>
+</html>
